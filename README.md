@@ -31,6 +31,7 @@ Camera calibration is performed using a **checkerboard pattern**, which serves a
 
 The figure below illustrates both the raw video feed and the detected checkerboard nodes.
 
+<img width="974" height="504" alt="image" src="https://github.com/user-attachments/assets/b398e149-7edd-44bc-8463-6d37e279ff98" />
 > *Figure 1: Checkerboard node detection (right) compared to normal video (left).*
 
 ### Step 3: Interpolation
@@ -47,7 +48,7 @@ RBF interpolation offers superior results but has higher computational complexit
 
 The interpolation results can be visualized in 3D and 2D plots, as shown below.
 
-<img width="974" height="504" alt="image" src="https://github.com/user-attachments/assets/cd20d787-51aa-4e72-978b-b1d03707513c" />
+<img width="818" height="397" alt="image" src="https://github.com/user-attachments/assets/b3caa2b8-5847-41f4-b887-724b7fe3a35a" />
 > *Figure 2: 3D and 2D visualizations of interpolation results.*
 
 ### Step 4: Video Transformation
@@ -57,8 +58,10 @@ In the final step, each video frame is processed using the `process_image()` fun
 
 The result is a transformed video feed that simulates a bird's-eye view.
 
+<img width="585" height="318" alt="image" src="https://github.com/user-attachments/assets/2e046807-7dbc-4116-9851-0bcb2b579061" />
 > *Figure 3: Pixel transfer table and transformed video output (checkerboard).*
 
+<img width="581" height="314" alt="image" src="https://github.com/user-attachments/assets/69d254e1-9740-4095-84bd-ca2ceff41083" />
 > *Figure 4: Pixel transfer table and transformed video output (scene from Figure 1).*
 
 ---
