@@ -31,8 +31,14 @@ Camera calibration is performed using a **checkerboard pattern**, which serves a
 
 The figure below illustrates both the raw video feed and the detected checkerboard nodes.
 
+<p align="center">
+  <img width="974" height="504" alt="image" src="https://github.com/user-attachments/assets/b398e149-7edd-44bc-8463-6d37e279ff98" />
+  <br/>
+  <em>Figure 1: Checkerboard node detection (right) compared to normal video (left).</em>
+</p>
+
 <img width="974" height="504" alt="image" src="https://github.com/user-attachments/assets/b398e149-7edd-44bc-8463-6d37e279ff98" />
-*Figure 1: Checkerboard node detection (right) compared to normal video (left).*
+Figure 1: Checkerboard node detection (right) compared to normal video (left).
 
 ### Step 3: Interpolation
 After calibration, **coordinate interpolation** is applied to create smooth pixel transitions. The program uses `RBFInterpolator` (Radial Basis Function interpolation) twice — once for X-coordinates and once for Y-coordinates.
