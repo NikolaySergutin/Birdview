@@ -32,7 +32,7 @@ Camera calibration is performed using a **checkerboard pattern**, which serves a
 The figure below illustrates both the raw video feed and the detected checkerboard nodes.
 
 <img width="974" height="504" alt="image" src="https://github.com/user-attachments/assets/b398e149-7edd-44bc-8463-6d37e279ff98" />
-> *Figure 1: Checkerboard node detection (right) compared to normal video (left).*
+Figure 1: Checkerboard node detection (right) compared to normal video (left).
 
 ### Step 3: Interpolation
 After calibration, **coordinate interpolation** is applied to create smooth pixel transitions. The program uses `RBFInterpolator` (Radial Basis Function interpolation) twice — once for X-coordinates and once for Y-coordinates.
@@ -49,7 +49,7 @@ RBF interpolation offers superior results but has higher computational complexit
 The interpolation results can be visualized in 3D and 2D plots, as shown below.
 
 <img width="818" height="397" alt="image" src="https://github.com/user-attachments/assets/b3caa2b8-5847-41f4-b887-724b7fe3a35a" />
-> *Figure 2: 3D and 2D visualizations of interpolation results.*
+Figure 2: 3D and 2D visualizations of interpolation results.
 
 ### Step 4: Video Transformation
 In the final step, each video frame is processed using the `process_image()` function. This function:
