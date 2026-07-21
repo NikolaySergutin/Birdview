@@ -59,10 +59,10 @@ In the final step, each video frame is processed using the `process_image()` fun
 The result is a transformed video feed that simulates a bird's-eye view.
 
 <img width="585" height="318" alt="image" src="https://github.com/user-attachments/assets/2e046807-7dbc-4116-9851-0bcb2b579061" />
-> *Figure 3: Pixel transfer table and transformed video output (checkerboard).*
+Figure 3: Pixel transfer table and transformed video output (checkerboard).
 
 <img width="581" height="314" alt="image" src="https://github.com/user-attachments/assets/69d254e1-9740-4095-84bd-ca2ceff41083" />
-> *Figure 4: Pixel transfer table and transformed video output (scene from Figure 1).*
+Figure 4: Pixel transfer table and transformed video output (scene from Figure 1).
 
 ---
 
@@ -71,16 +71,6 @@ The result is a transformed video feed that simulates a bird's-eye view.
 A detailed demonstration of the program's results is available on YouTube:
 
 [**Watch the demo on YouTube**](https://www.youtube.com/watch?v=S8Jwaaax_qQ)
-
----
-
-## Project Structure
-
-The repository contains the following files:
-- `birdview.py` — the main Python program.
-- `README.md` — this file.
-- `Detailed description.docx` — a detailed description of each step (in Russian, but the code comments are in English).
-- `requirements.txt` (optional) — dependencies for the project.
 
 ---
 
