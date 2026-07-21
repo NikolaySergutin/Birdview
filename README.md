@@ -64,13 +64,17 @@ In the final step, each video frame is processed using the `process_image()` fun
 
 The result is a transformed video feed that simulates a bird's-eye view.
 
-<img width="585" height="318" alt="image" src="https://github.com/user-attachments/assets/2e046807-7dbc-4116-9851-0bcb2b579061" />
----
-Figure 3: Pixel transfer table and transformed video output (checkerboard).
+<p align="center">
+  <img width="585" height="318" alt="image" src="https://github.com/user-attachments/assets/2e046807-7dbc-4116-9851-0bcb2b579061" />
+  <br/>
+  <em>Figure 3: Pixel transfer table and transformed video output (checkerboard).</em>
+</p>
 
-<img width="581" height="314" alt="image" src="https://github.com/user-attachments/assets/69d254e1-9740-4095-84bd-ca2ceff41083" />
----
-Figure 4: Pixel transfer table and transformed video output (scene from Figure 1).
+<p align="center">
+  <img width="581" height="314" alt="image" src="https://github.com/user-attachments/assets/69d254e1-9740-4095-84bd-ca2ceff41083" />
+  <br/>
+  <em>Figure 4: Pixel transfer table and transformed video output (scene from Figure 1).</em>
+</p>
 
 ---
 
